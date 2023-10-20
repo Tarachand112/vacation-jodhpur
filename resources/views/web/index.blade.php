@@ -1,6 +1,48 @@
 @extends('web.layouts.app') 
 @section('content')
-<div class="hero-wrap js-fullheight" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+		<!-- here start slider -->
+<section>
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img class="d-block w-100" src="images/bg_2.jpg" alt="First slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="images/image-home1.jpg" alt="Second slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="images/image-home2.jpg" alt="Third slide">
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<div>
+		<div id="containt_set" class="container-fluid text-center m-4">
+			<div class="col-md-9 text text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+				<a href="javascipt:void;" class="icon-video d-flex align-items-center justify-content-center mb-4">
+					<span class="ion-ios-play"></span>
+				</a>
+				<p class="caps text-white" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel to the any corner of the world, without going around in circles</p>
+				<h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Make Your Tour Amazing With Us</h1>
+			</div>
+		</div>
+	</div>
+</section>
+		<!-- end slider -->
+
+<<!-- div class="hero-wrap js-fullheight" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -46,7 +88,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </section>
 <br><br><br>
 
