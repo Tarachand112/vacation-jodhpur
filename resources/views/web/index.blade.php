@@ -1,5 +1,16 @@
 @extends('web.layouts.app') 
 @section('content')
+<style type="text/css">
+@media only screen and (max-width: 600px) {
+		#containt_set {
+			    top: 122px;
+			    left: -13px;
+		}
+		.change-sm{
+			font-size: medium;
+		}
+	}
+</style>
 		<!-- here start slider -->
 <section>
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -10,13 +21,13 @@
 	  </ol>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img class="d-block w-100" src="images/bg_2.jpg" alt="First slide">
+	      <img class="d-block w-100" src="images/slider/home_two.jpg" alt="First slide">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100" src="images/image-home1.jpg" alt="Second slide">
+	      <img class="d-block w-100" src="images/slider/home_one.jpg" alt="Second slide">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100" src="images/image-home2.jpg" alt="Third slide">
+	      <img class="d-block w-100" src="images/slider/home_three.jpg" alt="Third slide">
 	    </div>
 	  </div>
 	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -31,65 +42,13 @@
 	<div>
 		<div id="containt_set" class="container-fluid text-center m-4">
 			<div class="col-md-9 text text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-				<a href="javascipt:void;" class="icon-video d-flex align-items-center justify-content-center mb-4">
-					<span class="ion-ios-play"></span>
-				</a>
-				<p class="caps text-white" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel to the any corner of the world, without going around in circles</p>
-				<h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Make Your Tour Amazing With Us</h1>
+				<span class="caps text-white text-sm-center" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel to the any corner of the world, without going around in circles</span>
+				<h1 class="text-uppercase font-weight-bold change-sm" data-scrollax="properties: { translateY: '30%', opacity: 1.6 } ">Make Your Tour Amazing With Us</h1>
 			</div>
 		</div>
 	</div>
 </section>
-		<!-- end slider -->
-
-<<!-- div class="hero-wrap js-fullheight" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
-			<div class="col-md-9 text text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-				<a href="javascipt:void;" class="icon-video d-flex align-items-center justify-content-center mb-4">
-					<span class="ion-ios-play"></span>
-				</a>
-				<p class="caps" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel to the any corner of the world, without going around in circles</p>
-				<h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Make Your Tour Amazing With Us</h1>
-			</div>
-		</div>
-	</div>
-</div>
-<section class="ftco-section ftco-no-pb ftco-no-pt">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="search-wrap-1 ftco-animate p-4">
-					<form action="#" class="search-property-1">
-						<div class="row">
-							<div class="col-lg-4 align-items-end">
-								<div class="form-group">
-									<label for="#">Poupler Places</label>
-									<div class="form-field text-white ">
-									 Get Best Deals On</div>
-								</div>
-							</div>
-							<div class="col-lg-5 align-items-end">
-								<div class="form-group">
-									<label for="#">Singapore, Canada, Thailand, Autralia</label>
-									<div class="form-field text-white">Educational Tour Packages</div>
-								</div>
-							</div>
-							<div class="col-lg-3 align-self-end">
-								<div class="form-group">
-									<div class="form-field">
-										<a href="{{ url('contact') }}" class="form-control btn btn-primary">Contact Now</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div> -->
-</section>
+<!-- end slider -->
 <br><br><br>
 
 @include('web.modules.about_section')
@@ -159,8 +118,8 @@
 					<a href="#" class="img" style="background-image: url(images/school2.jpg);"></a>
 					<div class="text p-4">
 						<span class="price">Read More</span>
-						<span class="days">8 Days Tour</span>
 						<h3><a href="#">Bali, Indonesia</a></h3>
+						<span>The island is home to religious sites such as cliffside Uluwatu Temple. To the south, the beachside city of Kuta has lively bars, while Seminyak</span>
 						<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
 						<ul>
 							<li><span class="flaticon-shower"></span>2</li>
@@ -175,41 +134,9 @@
 					<a href="#" class="img" style="background-image: url(images/school6.jpg);"></a>
 					<div class="text p-4">
 						<span class="price">Read More</span>
-						<span class="days">10 Days Tour</span>
-						<h3><a href="#">Bali, Indonesia</a></h3>
-						<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(images/school3.jpg);"></a>
-					<div class="text p-4">
-						<span class="price">Read More</span>
-						<span class="days">7 Days Tour</span>
-						<h3><a href="#">Bali, Indonesia</a></h3>
-						<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(images/school4.jpg);"></a>
-					<div class="text p-4">
-						<span class="price">Read More</span>
-						<span class="days">8 Days Tour</span>
-						<h3><a href="#">Bali, Indonesia</a></h3>
-						<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
+						<h3><a href="#">Istanbul</a></h3>
+						<span>These are the Hagia Sophia, a famous 6th-century mosque that is now a museum, and the namesake Sultanahmet Mosque, which is also fondly referred to as the Blue Mosque</span>
+						<p class="location"><span class="ion-ios-map"></span> Turkey</p>
 						<ul>
 							<li><span class="flaticon-shower"></span>2</li>
 							<li><span class="flaticon-king-size"></span>3</li>
@@ -223,9 +150,41 @@
 					<a href="#" class="img" style="background-image: url(images/school1.jpg);"></a>
 					<div class="text p-4">
 						<span class="price">Read More</span>
-						<span class="days">10 Days Tour</span>
-						<h3><a href="#">Bali, Indonesia</a></h3>
-						<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
+						<h3><a href="#">krabi</a></h3>
+						<span>its scenic view and breathtaking Beaches and Islands. Its coral reef vistas are also one of the world's most beautiful, which makes the City a great spot for coral diving</span>
+						<p class="location"><span class="ion-ios-map"></span>Thailand</p>
+						<ul>
+							<li><span class="flaticon-shower"></span>2</li>
+							<li><span class="flaticon-king-size"></span>3</li>
+							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+				<div class="project-wrap">
+					<a href="#" class="img" style="background-image: url(images/udaipur.webp);"></a>
+					<div class="text p-4">
+						<span class="price">Read More</span>
+						<h3><a href="#">City of Lakes</a></h3>
+						<span> Undoubtedly one of India's most romantic cities, it nestles between the glassy waters of its famous lakes and the ancient Aravelli Hills</span>
+						<p class="location"><span class="ion-ios-map"></span> Rajasthan, India</p>
+						<ul>
+							<li><span class="flaticon-shower"></span>2</li>
+							<li><span class="flaticon-king-size"></span>3</li>
+							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+				<div class="project-wrap">
+					<a href="#" class="img" style="background-image: url(images/school3.jpg);"></a>
+					<div class="text p-4">
+						<span class="price">Read More</span>
+						<h3><a href="#">Agra</a></h3>
+						<span>Ayodhya is the place where lord Rama took birth, Mathura is the birth place of Lord Krishna and Sarnath is the place where Lord Buddha delivered his first sermon after attaining enlightenment</span>
+						<p class="location"><span class="ion-ios-map"></span> Uttar Pradesh India</p>
 						<ul>
 							<li><span class="flaticon-shower"></span>2</li>
 							<li><span class="flaticon-king-size"></span>3</li>
@@ -239,9 +198,9 @@
 					<a href="#" class="img" style="background-image: url(images/new_delhi_ncr.jpg);"></a>
 					<div class="text p-4">
 						<span class="price">Read More</span>
-						<span class="days">7 Days Tour</span>
-						<h3><a href="#">Bali, Indonesia</a></h3>
-						<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
+						<h3><a href="#">Goa, India</a></h3>
+						<span>Sun, sand and sea being the major attractions, Goa trip is a perfect heaven for the ones who need and want relaxation</span>
+						<p class="location"><span class="ion-ios-map"></span> Goa, India</p>
 						<ul>
 							<li><span class="flaticon-shower"></span>2</li>
 							<li><span class="flaticon-king-size"></span>3</li>

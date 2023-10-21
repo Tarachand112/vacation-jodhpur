@@ -1,6 +1,52 @@
 @extends('web.layouts.app')
 @section('content')
-	<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/image_4.jpg');" data-stellar-background-ratio="0.5">
+<style type="text/css">
+@media only screen and (max-width: 600px) {
+		#containt_set {
+			    top: 90px;
+			    left: -13px;
+		}
+	}
+</style>
+<section>
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img class="d-block w-100" src="images/slider/gallery_three.jpg" alt="First slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="images/slider/gallery_five.jpg" alt="Second slide">
+	    </div>
+	    <!-- <div class="carousel-item">
+	      <img class="d-block w-100" src="images/slider/gallery_last_one.jpg" alt="Third slide">
+	    </div> -->
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<div>
+		<div id="containt_set" class="container-fluid text-center m-4">
+			<div class="bold col-md-9 text text-center ftco-animate py-2" data-scrollax=" properties: { translateY: '70%' }">
+				<h1 class="mb-3 bread text-md-center">Gallery</h1>
+				<p class="breadcrumbs"><span class="mr-2" style="color: yellow;"><a href="{{ url('/') }}" >Home <i class="ion-ios-arrow-forward"></i></a></span> <span style="color: white;">Gallery <i class="ion-ios-arrow-forward"></i></span></p>
+			</div>
+		</div>
+	</div>
+</section>
+		<!-- end slider -->
+
+<!-- <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/image_4.jpg');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -10,7 +56,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+</section> -->
 
 	<section class="ftco-section">
 		<div class="container">
