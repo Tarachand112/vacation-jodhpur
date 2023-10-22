@@ -12,20 +12,26 @@
 					@csrf
 						<div class="row">
 							<div class="col-lg-6">
-								<label>Name</label> 
-								<input type="text" class="form-control" name="name" maxlength="30" value="{{ $user->name }}"> 
-
-								<label>Mobile Number</label>
-								<input type="text" class="form-control" name="mobile_number" maxlength="11" value="{{ $user->mobile_number }}">
-											
-								<label>Email</label>
-								<input type="text" class="form-control" name="email"maxlength="40" value="{{ $user->email }}">
+								<div class="py-2">
+									<label>Name</label> 
+									<input   type="text" class="form-control" name="name" maxlength="30" value="{{ $user->name }}">
+								</div>
+								<div class="py-2">
+									<label>Mobile Number</label>
+									<input type="text" class="form-control" name="mobile_number" maxlength="11" value="{{ $user->mobile_number }}">
+								</div>
 							</div>
 
 							<div class="col-lg-6">
-								<label>Profile Image</label> 
-								<input  type="file" class="form-control" accept=".jpeg,.png,.jpg" placeholder="Image" name="profile_image" >
-								<img src="{{ asset('admin/assets/images/' . $user->profile_image) }}" class="w-50 h-50" id="preview">
+								<div class="py-2">
+									<label>Email</label>
+									<input type="text" class="form-control" name="email"maxlength="40" value="{{ $user->email }}">
+								</div>
+								<div class="py-2">
+									<label>Profile Image</label> 
+									<input  type="file" class="form-control" accept=".jpeg,.png,.jpg" placeholder="Image" name="profile_image" >
+									<img src="{{ asset('admin/assets/images/' . $user->profile_image) }}" class="w-50 h-50" id="preview">
+								</div>
 							</div>
 
 							<div class="text-end">

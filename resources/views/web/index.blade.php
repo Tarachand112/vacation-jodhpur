@@ -5,9 +5,10 @@
 		#containt_set {
 			    top: 122px;
 			    left: -13px;
+			    font-size: 15px;
 		}
-		.change-sm{
-			font-size: medium;
+		#containt_set h1{
+			font-size: 24px;
 		}
 	}
 </style>
@@ -43,7 +44,7 @@
 		<div id="containt_set" class="container-fluid text-center m-4">
 			<div class="col-md-9 text text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 				<span class="caps text-white text-sm-center" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel to the any corner of the world, without going around in circles</span>
-				<h1 class="text-uppercase font-weight-bold change-sm" data-scrollax="properties: { translateY: '30%', opacity: 1.6 } ">Make Your Tour Amazing With Us</h1>
+				<h1 class="text-uppercase font-weight-bold change-sm text-white" data-scrollax="properties: { translateY: '30%', opacity: 1.6 } ">Make Your Tour Amazing With Us</h1>
 			</div>
 		</div>
 	</div>
@@ -122,8 +123,8 @@
 						<span>The island is home to religious sites such as cliffside Uluwatu Temple. To the south, the beachside city of Kuta has lively bars, while Seminyak</span>
 						<p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
 						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
+							<li><span class="flaticon-shower"></span>4</li>
+							<li><span class="flaticon-king-size"></span>5</li>
 							<li><span class="flaticon-mountains"></span>Near Mountain</li>
 						</ul>
 					</div>
@@ -138,8 +139,8 @@
 						<span>These are the Hagia Sophia, a famous 6th-century mosque that is now a museum, and the namesake Sultanahmet Mosque, which is also fondly referred to as the Blue Mosque</span>
 						<p class="location"><span class="ion-ios-map"></span> Turkey</p>
 						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
+							<li><span class="flaticon-shower"></span>3</li>
+							<li><span class="flaticon-king-size"></span>4</li>
 							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
 						</ul>
 					</div>
@@ -172,7 +173,7 @@
 						<ul>
 							<li><span class="flaticon-shower"></span>2</li>
 							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
+							<li><span class="flaticon-sun-umbrella"></span>Near Lake</li>
 						</ul>
 					</div>
 				</div>
@@ -186,9 +187,8 @@
 						<span>Ayodhya is the place where lord Rama took birth, Mathura is the birth place of Lord Krishna and Sarnath is the place where Lord Buddha delivered his first sermon after attaining enlightenment</span>
 						<p class="location"><span class="ion-ios-map"></span> Uttar Pradesh India</p>
 						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
+							<li><span class="flaticon-shower"></span>1</li>
+							<li><span class="flaticon-king-size"></span>2</li>
 						</ul>
 					</div>
 				</div>
@@ -202,8 +202,8 @@
 						<span>Sun, sand and sea being the major attractions, Goa trip is a perfect heaven for the ones who need and want relaxation</span>
 						<p class="location"><span class="ion-ios-map"></span> Goa, India</p>
 						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
+							<li><span class="flaticon-shower"></span>3</li>
+							<li><span class="flaticon-king-size"></span>4</li>
 							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
 						</ul>
 					</div>

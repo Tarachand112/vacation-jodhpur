@@ -9509,7 +9509,11 @@ textarea.form-control {
   position: absolute;
   top: 315px;
   left: 153px;
+  font-size: 30px;
 } 
+#containt_set h1{
+  font-size: 60px;
+}
 body{
     overflow-x: hidden;
   }

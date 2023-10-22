@@ -29,8 +29,8 @@
 									<span class="day">21</span>
 								</div>
 								<div class="two">
-									<span class="yr">2019</span>
-									<span class="mos">August</span>
+									<span class="yr">2023</span>
+									<span class="mos"></span>
 								</div>
 							</div>
 							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
@@ -44,11 +44,11 @@
 						<div class="text mt-3 float-right d-block">
 							<div class="d-flex align-items-center mb-4 topp">
 								<div class="one">
-									<span class="day">21</span>
+									<span class="day">1</span>
 								</div>
 								<div class="two">
-									<span class="yr">2019</span>
-									<span class="mos">August</span>
+									<span class="yr">2023</span>
+									<span class="mos"></span>
 								</div>
 							</div>
 							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
@@ -62,11 +62,11 @@
 						<div class="text mt-3 float-right d-block">
 							<div class="d-flex align-items-center mb-4 topp">
 								<div class="one">
-									<span class="day">21</span>
+									<span class="day">15</span>
 								</div>
 								<div class="two">
-									<span class="yr">2019</span>
-									<span class="mos">August</span>
+									<span class="yr">2022</span>
+									<span class="mos"></span>
 								</div>
 							</div>
 							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
@@ -81,11 +81,11 @@
 						<div class="text mt-3 float-right d-block">
 							<div class="d-flex align-items-center mb-4 topp">
 								<div class="one">
-									<span class="day">21</span>
+									<span class="day">9</span>
 								</div>
 								<div class="two">
-									<span class="yr">2019</span>
-									<span class="mos">August</span>
+									<span class="yr">2022</span>
+									<span class="mos"></span>
 								</div>
 							</div>
 							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
@@ -102,8 +102,8 @@
 									<span class="day">21</span>
 								</div>
 								<div class="two">
-									<span class="yr">2019</span>
-									<span class="mos">August</span>
+									<span class="yr">2020</span>
+									<span class="mos"></span>
 								</div>
 							</div>
 							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
@@ -117,11 +117,11 @@
 						<div class="text mt-3 float-right d-block">
 							<div class="d-flex align-items-center mb-4 topp">
 								<div class="one">
-									<span class="day">21</span>
+									<span class="day">27</span>
 								</div>
 								<div class="two">
 									<span class="yr">2019</span>
-									<span class="mos">August</span>
+									<span class="mos"></span>
 								</div>
 							</div>
 							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>

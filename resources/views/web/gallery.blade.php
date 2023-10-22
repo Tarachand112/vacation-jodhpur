@@ -5,6 +5,7 @@
 		#containt_set {
 			    top: 90px;
 			    left: -13px;
+			    color: white;
 		}
 	}
 </style>
@@ -17,14 +18,17 @@
 	  </ol>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img class="d-block w-100" src="images/slider/gallery_three.jpg" alt="First slide">
+	      <img class="d-block w-100" src="images/slider/gallery_one.jpg" alt="First slide">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100" src="images/slider/gallery_five.jpg" alt="Second slide">
+	      <img class="d-block w-100" src="images/slider/gallery_two.jpg" alt="Second slide">
 	    </div>
-	    <!-- <div class="carousel-item">
-	      <img class="d-block w-100" src="images/slider/gallery_last_one.jpg" alt="Third slide">
-	    </div> -->
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="images/slider/gallery_three.jpg" alt="Third slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="images/slider/gallery_four.jpg" alt="Third slide">
+	    </div>
 	  </div>
 	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -38,8 +42,8 @@
 	<div>
 		<div id="containt_set" class="container-fluid text-center m-4">
 			<div class="bold col-md-9 text text-center ftco-animate py-2" data-scrollax=" properties: { translateY: '70%' }">
-				<h1 class="mb-3 bread text-md-center">Gallery</h1>
-				<p class="breadcrumbs"><span class="mr-2" style="color: yellow;"><a href="{{ url('/') }}" >Home <i class="ion-ios-arrow-forward"></i></a></span> <span style="color: white;">Gallery <i class="ion-ios-arrow-forward"></i></span></p>
+				<h1 class="mb-3 bread text-md-center text-white">Gallery</h1>
+				<p class="breadcrumbs"><span class="mr-2"><a href="{{ url('/') }}" >Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="text-white">Gallery <i class="ion-ios-arrow-forward"></i></span></p>
 			</div>
 		</div>
 	</div>
@@ -57,6 +61,9 @@
 			</div>
 		</div>
 </section> -->
+<div class="container mt-5">
+	Joining the EF family means you’ll have the support of our community of educators, tour architects, operations wizards, and ever-curious explorers. We’ve experienced the transformative power of travel firsthand—and we can’t wait to explore the opportunities that are out there for you and your students.
+</div>
 
 	<section class="ftco-section">
 		<div class="container">
@@ -66,7 +73,7 @@
 						<a href="#" class="block-20" style="background-image: url('images/agra_trip_3.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading"><a href="#">This was agra trip with nice students</a></h3>
 						</div>
 					</div>
 				</div>
@@ -75,7 +82,7 @@
 						<a href="#" class="block-20" style="background-image: url('images/amritsar.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading"><a href="#">This was a geographical trip as zoo visit and more juniour level trip</a></h3>
 						 
 						</div>
 					</div>
@@ -85,7 +92,7 @@
 						<a href="#" class="block-20" style="background-image: url('images/hampi.webp');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading"><a href="#">New place exploring as new class</a></h3>
 						</div>
 					</div>
 				</div>
@@ -95,7 +102,7 @@
 						<a href="#" class="block-20" style="background-image: url('images/new_delhi_ncr.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading"><a href="#">Exploring learning and make too much fun</a></h3>
 						</div>
 					</div>
 				</div>
@@ -104,7 +111,7 @@
 						<a href="#" class="block-20" style="background-image: url('images/hampi.webp');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading"><a href="#">Tour with us we make memorable for everyone</a></h3>
 						</div>
 					</div>
 				</div>
@@ -113,7 +120,7 @@
 						<a href="#" class="block-20" style="background-image: url('images/school1.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading"><a href="#">Enjoy as you can we make as you want</a></h3>
 						</div>
 					</div>
 				</div>

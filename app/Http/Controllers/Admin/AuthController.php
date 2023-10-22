@@ -89,7 +89,7 @@ class AuthController extends Controller
 	function profileStore(Request $request){
 		$user = Auth::user();
 		if($request->hasFile('profile_image')) {
-			unlink(public_path('admin/assets/images/'. $user->profile_image));
+			// unlink(public_path('admin/assets/images/'. $user->profile_image));
 			$profile_image_name = time() . '_' . $request->file('profile_image')->getClientOriginalName();
 			$request->file('profile_image')->move('admin/assets/images', $profile_image_name);
 			$user['profile_image'] = $profile_image_name;
